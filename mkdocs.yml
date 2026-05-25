@@ -1,1 +1,24 @@
-site_name: My Docs
+site_name: Data Science @ SMU Unofficial Handbook
+site_url: https://ericgrahamtech.github.io/smu-ds-handbook
+repo_url: https://github.com/ericgrahamtech/smu-ds-handbook
+repo_name: smu-ds-handbook
+ 
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.top
+    - search.highlight
+ 
+nav:
+  - About: index.md
+  - Getting Started
+    - What You Should Know Before Starting
+  - Environment & Tooling:
+    - Local Environment Setup (Windows, Mac, Linux): environment/local-setup.md
+    - How to Sign Into Zoom: environment/zoom-sso.md
+  - Workflow & Productivity:
+    - Presentation Tools (Canva and PowerPoint): workflow/presentations.md
+    - Free Stuff You Can Get as a Student: workflow/free-student-resources.md
+    - Products and Services Worth Paying For: workflow/paid-tools.md  
+  - Contact: contact.md
